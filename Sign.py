@@ -6,7 +6,7 @@ def register():
     global User_name
     with open("login.txt", "r") as db:
     #db = open("login.txt", "r")
-        User_name = input("Create username :")
+        User_name = input("Create username(in email) :")
         m = user_id_validation(User_name)
         send_password()
 #Password creation
@@ -120,7 +120,7 @@ def forgot_password():
    global option2
    with open("login.txt", "r") as db:                                                                                   #with is used so that at the end of file,it will be automatically closed
     #db = open("login.txt", "r")
-    User_name = input("Enter the Username: ")
+    User_name = input("Enter the Username(in email): ")
     m = user_id_validation(User_name)
     if m==True:
             print(" 1 - Create New password | 2 - Retrieve")
