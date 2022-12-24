@@ -2,6 +2,8 @@
 Registration and Login system using Python- file handling
 
 The Python code has been implemented for the below cases.
+
+
 Stage -- 1 
 Registration
 When the user chooses to Register
